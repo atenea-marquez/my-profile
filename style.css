@@ -1,0 +1,91 @@
+ /*Colors and fonts*/
+body {
+	background-color: #F7F2E0;
+	color: #F7D358;
+	font-family: 'M PLUS Rounded 1c' , sans-serif;
+	font-weight: 800;
+	font-size: 17.5px;
+	text-align: center;
+}
+h1,h2 {
+	font-family: 'Dela Gothic One', cursive;
+	color: #FACC2E;
+}	
+h1 {
+	letter-spacing: 5px;
+}
+h2 {
+	letter-spacing: 4px;
+}
+a {
+	color: #FAAC58;
+	font-weight: bolder;
+	font-size: 18px; 
+}
+a:hover {
+	color: #FF8000
+}
+/*Custom design with class*/
+.container { 
+   width: 700px;
+   margin: 20px auto;
+   background: #fff1db;
+   padding: 60px;
+   box-shadow: 0px 10px 30px rgb(0 0 0 / 10%);
+   border-radius: 5px;
+   margin-bottom: 40px;
+}
+.card-colored {
+	background: #F7F2E0;
+   	padding: 60px;
+    box-shadow: 0px 10px 30px rgb(0 0 0 / 10%);
+    border-radius: 5px;
+    margin-bottom: 40px;			
+}
+.img-circle {
+	border-radius: 55%;
+	width: 300px;
+	height: 330px;
+}
+.img-shadow{
+	box-shadow: 0px 10px 10px rgba(0,0,0,0.5);
+}
+.btn-orange { 
+	background-color: #ffdcc4;
+	color: #FAAC58; 
+	padding: 15px 20px; 
+	border-radius: 5px;
+}
+.list-inline {
+	list-style: none;
+	padding-left: 0px; 
+}
+.list-inline li {
+	padding: 10px;
+}
+.list-inline i {
+	font-size: 40px
+}
+@media (max-width: 760px) {
+	.container {
+		width: 600px; 
+	}
+}
+@media (max-width: 500px) {
+	.container {
+		width: 400px; 
+	}
+}
+/*Custom design with id*/
+#introduction p {
+	margin-bottom: 40px; 
+}
+
+
+
+
+
+
+
+
+
